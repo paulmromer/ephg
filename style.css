@@ -3,6 +3,11 @@ body {
     font-size: larger;
 }
 
+mark {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+}
 
 p { 
     padding-bottom: 1.2rem;
