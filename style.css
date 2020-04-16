@@ -3,9 +3,6 @@ body {
     font-size: larger;
 }
 
-.text-justify {
-    text-align: justify;
-}
 
 p { 
     padding-bottom: 1.2rem;
@@ -58,7 +55,10 @@ h2 {
 .text-black {
     color: #000;
 }
- 
+
+.text-left {
+    text-align: left;
+}
 
 .d-flex { 
     display: flex;
@@ -159,6 +159,10 @@ input, textarea {
 @media (min-width: 720px) { 
     .w-md-55 {
         width: 55%;
+    }
+
+    .text-md-justify {
+        text-align: justify;
     }
 }
 
