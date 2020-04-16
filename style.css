@@ -17,6 +17,10 @@ h2 {
     margin-top: 1rem;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 .padding-left {
     padding-left: 10%;
     margin-left: 10%;
@@ -47,13 +51,14 @@ h2 {
 .text-black {
     color: #000;
 }
+ 
 
 .d-flex { 
     display: flex;
 }
 
-.w-80 {
-    width: 80%;
+.w-90 {
+    width: 90%;
 }
 
 .bg-white {
@@ -126,7 +131,11 @@ h2 {
 }
 
 footer {
-    height: 100px;
+   text-align: center;
+   margin: auto;
+   border-top: 1px solid #000;
+   font-size: medium;
+   margin-top: 100px;
 }
 
 
@@ -143,5 +152,24 @@ input, textarea {
 @media (min-width: 720px) { 
     .w-md-55 {
         width: 55%;
+    }
+}
+
+@media (max-width: 576px) { 
+    .d-mobile-none {
+        display: none;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+
+    .mobile-menu {
+        display: block;
+        font-size: larger;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        padding: 5px;
     }
 }
