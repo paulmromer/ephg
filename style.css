@@ -160,6 +160,10 @@ input, textarea {
         display: none;
     }
 
+    .p-sm-1 {
+        padding: 1rem;
+    }
+
     input, textarea {
         width: 90%;
     }
