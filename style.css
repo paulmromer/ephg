@@ -3,6 +3,11 @@ body {
     font-size: larger;
 }
 
+
+.font-secondary {
+   font-style: italic;
+}
+
 h2 {
     margin-top: 1rem;
 }
@@ -85,6 +90,10 @@ h2 {
     border: 1px solid #000;
     background-color: #000;
     color: #fff;
+}
+
+.letter-signature-details ol li:not( :first-child ){
+    padding-top: 1rem;
 }
 
 @media (min-width: 720px) { 
