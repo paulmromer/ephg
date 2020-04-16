@@ -43,12 +43,13 @@
             </div>
 
             <div class="letter">
+
                 <div class="letter-heading">
                     Dear Mr Dominic Raab, Sir Keir Starmer, Mr Jeremy Hunt, Mr Matt Hancock, Mr Jonathan Ashworth,
                     Professors Sir Patrick Vallance, Chris Whitty and John Newton,
                 </div>
 
-                <div class="letter-body">
+                <div class="letter-body pt-2">
                     <p>
                         The British public have so far been offered the strategy of alternating periods of lockdown and
                         relaxation of restrictions. However, extended periods of lockdown will increase economic and
@@ -231,29 +232,29 @@
                             <div> Professor of Statistical Epidemiology, University of Leeds </div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Robbie Foy</div>
+                            <div class="font-secondary">Robbie Foy</div>
                             <div> Professor of Primary Care, University of Leeds</div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Keith Godfrey</div>
+                            <div class="font-secondary">Keith Godfrey</div>
                             <div>Professor of Epidemiology and Human Development, MRC Lifecourse Epidemiology Unit and NIHR Southampton
                                 Biomedical Research Centre, University of Southampton and University Hospital Southampton NHS Foundation Trust
                             </div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Richard Houlston</div>
+                            <div class="font-secondary">Richard Houlston</div>
                             <div>Professor in Molecular and Population Genetics, The Institute of Cancer Research </div>
                         </li>
                         <li>
-                            <div class="font-secondary"> David J Hunter </div>
+                            <div class="font-secondary">David J Hunter </div>
                             <div>Richard Doll Professor of Epidemiology and Medicine, University of Oxford </div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Hazel Inskip</div>
+                            <div class="font-secondary">Hazel Inskip</div>
                             <div> Professor of Statistical Epidemiology, University of Southampton </div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Deborah A Lawlor</div>
+                            <div class="font-secondary">Deborah A Lawlor</div>
                             <div> Professor of Epidemiology, MRC Integrative Epidemiology Unit at the University of Bristol</div>
                         </li>
                         <li>
@@ -261,7 +262,7 @@
                             <div> Professor of Respiratory Infection and Immunity, Queen Mary University of London</div>
                         </li>
                         <li>
-                            <div class="font-secondary"> Nuala McGrath</div>
+                            <div class="font-secondary">Nuala McGrath</div>
                             <div> Professor of Epidemiology & Sexual Health, University of Southampton </div>
                         </li>
                         <li>
@@ -307,10 +308,15 @@
                             <div class="font-secondary">Elio Riboli </div>
                             <div> Professor of Cancer Epidemiology, Director of Public Health Research, School of Public Health, Imperial
                                 College London and Imperial College Healthcare NHS Trust
-                                Paul Romer, Professor, New York University</div>
+                            </div>
                         </li>
                         <li>
-                            <div class="font-secondary">Paul Roderick, </div>
+                            <div class="font-secondary">Paul Romer</div>
+                            <div>Professor, New York University
+                            </div>
+                        </li>
+                        <li>
+                            <div class="font-secondary">Paul Roderick</div>
                             <div> Professor of Public Health, University of Southampton</div>
                         </li>
                         
@@ -330,16 +336,42 @@
                 </div>
             </div>
 
-
-            <div class="">
+            <hr>
+            <div class="mt-2">
                 <a name="sign-here"></a>
                 If you are an epidemiologist, public health or population health expert and would like to sign this
                 letter, please compete the form below.
             </div>
 
+            <div class="border mt-2 p-2">
+                <form name="sign" method="POST" data-netlify="true">
+                    <p>
+                      <label>Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                        <label>Email: <input type="email" name="email" /></label>
+                      </p>
+
+                      <p>
+                        <label>Role/job title: <textarea name="role"></textarea></label>
+                      </p>
+
+                    <p>
+                        <label>Affiliation: <input type="text" name="affiliation" /></label>   
+                    </p>
+                    
+                    <p>
+                      <button class="sign" type="submit">sign</button>
+                    </p>
+                  </form>                  
+            </div>
+
         </div>
     </div>
 
+    <footer>
+
+    </footer>
 </body>
 
 </html>
