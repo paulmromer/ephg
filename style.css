@@ -110,6 +110,7 @@ h2 {
     padding: 5px 15px 5px 15px;
     font-family: 'Spectral', serif;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .border { 
