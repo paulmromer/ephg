@@ -45,7 +45,7 @@ h2 {
 
 
 .nav {
-    flex-basis: 20%;
+    margin-left: auto;
 }
 
 .text-black {

@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expert Public Health Covid-19 Forum</title>
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -348,7 +345,7 @@
             </div>
 
             <div class="border mt-2 p-2">
-                <form name="sign" method="POST"  data-netlify="true">
+                <form name="sign" action="/thank-you" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                     <p>
                       <label>Name: <input type="text" name="name" /></label>   
                     </p>
@@ -363,7 +360,9 @@
                     <p>
                         <label>Affiliation:<textarea name="affiliation"></textarea></label>   
                     </p>
-                    
+
+                    <div data-netlify-recaptcha="true"></div>
+                   
                     <p>
                       <button class="sign" type="submit">sign</button>
                     </p>
